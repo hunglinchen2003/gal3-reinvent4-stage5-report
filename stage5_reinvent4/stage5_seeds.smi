@@ -1,0 +1,8 @@
+CS(=O)(=O)c1cccc(NC(=O)NC2CCN(CCCNC(=O)Nc3ccc(F)c(C(=O)O)c3)CC2)c1
+O=C(NCCCN1CCC(NC(=O)Nc2ccc(F)c(Cl)c2)CC1)Nc1cccc(C(=O)O)c1
+O=C(NCCCN1CCC(NC(=O)Nc2ccc(C(F)(F)F)nc2)CC1)Nc1cccc(C(=O)O)c1
+N#Cc1cc(F)cc(NC(=O)NC2CCN(CCNC(=O)Nc3ccc(F)c(C(=O)O)c3)CC2)c1
+N#Cc1cccc(NC(=O)NC2CCN(CCCNC(=O)Nc3cc(F)c(F)c(C(=O)O)c3)CC2)c1
+O=C(NCCCN1CCC(NC(=O)Nc2cccc(C(F)(F)F)c2)CC1)Nc1cc(F)c(F)c(C(=O)O)c1
+O=C(Nc1ccc(F)c(C(F)(F)F)c1)NC1CCN(CCCNC(=O)c2ccc(C(=O)O)cc2)CC1
+O=C(NCCCN1CCC(NC(=O)Nc2ccc(F)c(C(F)(F)F)c2)CC1)Nc1cccc(C(=O)O)c1

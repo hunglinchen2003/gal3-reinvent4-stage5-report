@@ -1,0 +1,170 @@
+# REINVENT 4 Stage 5 Configuration — Galectin-3 Non-Carbohydrate Oral Lead Optimization
+# Fixes Stage 4 reward hacking (poly-F explosion, Michael acceptors, flexible C4/C5 chains)
+# Uses Mol2Mol medium-similarity prior seeded from top commercial-aniline leads,
+# scored by smina Vinardo/Vina + ADMET-AI + RDKit QED/SA/Brenk/poly-F cap.
+
+run_type = "staged_learning"
+device = "cuda:0"
+tb_logdir = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/tb_logs"
+json_out_config = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/stage5_resolved.json"
+
+[parameters]
+summary_csv_prefix = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/stage5_results"
+use_checkpoint = false
+purge_memories = false
+
+prior_file = "/home/hunlin/aidd_tools/REINVENT4/priors/mol2mol_medium_similarity.prior"
+agent_file = "/home/hunlin/aidd_tools/REINVENT4/priors/mol2mol_medium_similarity.prior"
+smiles_file = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/stage5_seeds.smi"
+sample_strategy = "multinomial"
+distance_threshold = 100
+
+batch_size = 32
+unique_sequences = true
+randomize_smiles = true
+
+[learning_strategy]
+type = "dap"
+sigma = 128
+rate = 0.0001
+
+[diversity_filter]
+type = "IdenticalMurckoScaffold"
+bucket_size = 15
+minscore = 0.45
+
+[[stage]]
+chkpt_file = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/stage5_agent.chkpt"
+termination = "simple"
+max_score = 0.85
+min_steps = 15
+max_steps = 60
+
+[stage.scoring]
+type = "geometric_mean"
+
+# 1. Structural Alert Guard (blocks Michael acceptors, nitro-mutagens if desired, poly-F rings, long chains)
+[[stage.scoring.component]]
+[stage.scoring.component.CustomAlerts]
+[[stage.scoring.component.CustomAlerts.endpoint]]
+name = "Anti_RewardHack_Alerts"
+weight = 1.0
+params.smarts = [
+    "[#6]=[#6]-[#6](=O)-[N,O]",         # Michael acceptor (cinnamamide/acrylamide)
+    "[$(c(F)c(F)c(F)),$(c(F)c(F)cc(F)),$(c(F)cc(F)cc(F))]", # >=3 F on one phenyl ring
+    "[CH2][CH2][CH2][CH2][CH2]",        # Long flexible C5 aliphatic chain
+    "[*;r8,*;r9,*;r10,*;r11,*;r12]",    # Macrocycles
+    "[#7;+][O;-]",                      # Optional: remove this line if allowing -NO2 exploration
+    "[S,s][S,s]",                       # Disulfides
+    "[C,c](=O)[Cl,Br,I]"                # Acyl halides
+]
+
+# 2. Physicochemical Drug-Likeness (forces QED up from 0.14-0.20 to >=0.45 and trims MW/RotB)
+[[stage.scoring.component]]
+[stage.scoring.component.QED]
+[[stage.scoring.component.QED.endpoint]]
+name = "QED"
+weight = 0.6
+
+[[stage.scoring.component]]
+[stage.scoring.component.MolecularWeight]
+[[stage.scoring.component.MolecularWeight.endpoint]]
+name = "MW"
+weight = 0.4
+transform.type = "double_sigmoid"
+transform.low = 380.0
+transform.high = 520.0
+transform.coef_div = 500.0
+transform.coef_si = 20.0
+transform.coef_se = 20.0
+
+[[stage.scoring.component]]
+[stage.scoring.component.NumRotBond]
+[[stage.scoring.component.NumRotBond.endpoint]]
+name = "RotB"
+weight = 0.4
+transform.type = "reverse_sigmoid"
+transform.low = 5.0
+transform.high = 9.0
+transform.k = 0.5
+
+[[stage.scoring.component]]
+[stage.scoring.component.TPSA]
+[[stage.scoring.component.TPSA.endpoint]]
+name = "TPSA"
+weight = 0.3
+transform.type = "double_sigmoid"
+transform.low = 85.0
+transform.high = 135.0
+transform.coef_div = 140.0
+transform.coef_si = 20.0
+transform.coef_se = 20.0
+
+# 3. External Multi-Objective Scorer: smina Vinardo + Vina (pH 7.4) + ADMET-AI + SA Score + poly-F cap
+[[stage.scoring.component]]
+[stage.scoring.component.ExternalProcess]
+[[stage.scoring.component.ExternalProcess.endpoint]]
+name = "smina_Vinardo_pH74"
+weight = 1.5
+params.executable = "/home/hunlin/miniconda3/envs/gal3_eval/bin/python"
+params.args = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/stage5_scorer.py"
+params.property = "vinardo"
+transform.type = "reverse_sigmoid"
+transform.low = -9.5
+transform.high = -6.5
+transform.k = 0.5
+
+[[stage.scoring.component.ExternalProcess.endpoint]]
+name = "ADMET_hERG"
+weight = 0.8
+params.executable = "/home/hunlin/miniconda3/envs/gal3_eval/bin/python"
+params.args = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/stage5_scorer.py"
+params.property = "hERG"
+transform.type = "reverse_sigmoid"
+transform.low = 0.15
+transform.high = 0.45
+transform.k = 0.5
+
+[[stage.scoring.component.ExternalProcess.endpoint]]
+name = "ADMET_DILI"
+weight = 0.6
+params.executable = "/home/hunlin/miniconda3/envs/gal3_eval/bin/python"
+params.args = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/stage5_scorer.py"
+params.property = "DILI"
+transform.type = "reverse_sigmoid"
+transform.low = 0.25
+transform.high = 0.65
+transform.k = 0.5
+
+[[stage.scoring.component.ExternalProcess.endpoint]]
+name = "ADMET_AMES"
+weight = 0.7
+params.executable = "/home/hunlin/miniconda3/envs/gal3_eval/bin/python"
+params.args = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/stage5_scorer.py"
+params.property = "AMES"
+transform.type = "reverse_sigmoid"
+transform.low = 0.15
+transform.high = 0.45
+transform.k = 0.5
+
+[[stage.scoring.component.ExternalProcess.endpoint]]
+name = "ADMET_HIA"
+weight = 0.4
+params.executable = "/home/hunlin/miniconda3/envs/gal3_eval/bin/python"
+params.args = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/stage5_scorer.py"
+params.property = "HIA"
+transform.type = "sigmoid"
+transform.low = 0.65
+transform.high = 0.95
+transform.k = 0.5
+
+[[stage.scoring.component.ExternalProcess.endpoint]]
+name = "SA_Score"
+weight = 0.5
+params.executable = "/home/hunlin/miniconda3/envs/gal3_eval/bin/python"
+params.args = "/mnt/d/2026@AI_reinvent4/stage5_reinvent4/stage5_scorer.py"
+params.property = "sa_score"
+transform.type = "reverse_sigmoid"
+transform.low = 2.0
+transform.high = 4.0
+transform.k = 0.5
