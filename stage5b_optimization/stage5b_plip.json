@@ -1,0 +1,1654 @@
+{
+  "NAc1_4FmCOOH_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.36"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Ala146",
+      "dist": "3.86"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.85"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.23"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "1.87"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "2.64"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "His158",
+      "dist": "4.95"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg162",
+      "dist": "5.01"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.88"
+    }
+  ],
+  "NAc1_mCOOH_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.53"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.95"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.93"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.93"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.38"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "3.36"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "2.25"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "3.02"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Gly182",
+      "dist": "3.59"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.73"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.14"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.16"
+    }
+  ],
+  "NAc1_mCOOH_3CF3": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.92"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.79"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.83"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Glu165",
+      "dist": "2.14"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Glu165",
+      "dist": "2.16"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "His158",
+      "dist": "3.95"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg162",
+      "dist": "5.00"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.77"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.15"
+    }
+  ],
+  "NAc2_pCOOH_3OCF3": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.62"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.98"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Gln150",
+      "dist": "2.80"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "2.50"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "2.51"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "2.28"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.76"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.09"
+    }
+  ],
+  "NAc1_mCOOH_6ClPy3": [
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.13"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.03"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "1.97"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg144",
+      "dist": "4.66"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.69"
+    }
+  ],
+  "NAc1_mCOOH_3F5CN": [
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "2.86"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "3.34"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "2.30"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "3.07"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.72"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.07"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.08"
+    },
+    {
+      "type": "Halogen Bonds",
+      "res": "Tyr118",
+      "dist": "3.04"
+    }
+  ],
+  "NAc1_mCOOH_6CF3Py3": [
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.19"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.06"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "3.62"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "2.14"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg144",
+      "dist": "4.63"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.67"
+    }
+  ],
+  "NAc1_mCOOH_3Cl4F": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.81"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.90"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.32"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "1.92"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg144",
+      "dist": "4.64"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.64"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.10"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.30"
+    }
+  ],
+  "C2amd_mCOOH_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.43"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.19"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "1.94"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Phe163",
+      "dist": "3.30"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "2.92"
+    }
+  ],
+  "NAc1_mCOOH_3OCF3": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.75"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.82"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.88"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.33"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "1.93"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg144",
+      "dist": "4.61"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.70"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.12"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.26"
+    },
+    {
+      "type": "Halogen Bonds",
+      "res": "Arg162",
+      "dist": "3.88"
+    }
+  ],
+  "NAc1_pCOOH_3CN": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.65"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.96"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg144",
+      "dist": "3.45"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.13"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.59"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn160",
+      "dist": "3.46"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "1.83"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "3.04"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.11"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.00"
+    }
+  ],
+  "NAc2_pCOOH_3CF3": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.79"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn119",
+      "dist": "3.88"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.99"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.82"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.44"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Gln150",
+      "dist": "2.21"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "2.17"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "His158",
+      "dist": "5.47"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg162",
+      "dist": "5.02"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.84"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.28"
+    }
+  ],
+  "NBn_mCOOH_6ClPy3": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Ala146",
+      "dist": "3.79"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg144",
+      "dist": "3.18"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.26"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.34"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "3.07"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "2.09"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Gly238",
+      "dist": "3.72"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Gly238",
+      "dist": "3.26"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg144",
+      "dist": "4.35"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.61"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.42"
+    }
+  ],
+  "NAc0_mCOOH_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.53"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.92"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.11"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.84"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn160",
+      "dist": "2.90"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "2.70"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "2.95"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "His158",
+      "dist": "4.62"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg162",
+      "dist": "4.75"
+    }
+  ],
+  "NBn_pCOOH_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.78"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.91"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Gln150",
+      "dist": "2.28"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.95"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.28"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Asp148",
+      "dist": "3.53"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.71"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.07"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.18"
+    }
+  ],
+  "C2urea_5NH2FBA_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Arg162",
+      "dist": "3.55"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Arg162",
+      "dist": "3.98"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.81"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn143",
+      "dist": "3.62"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg144",
+      "dist": "2.37"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn160",
+      "dist": "2.64"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn160",
+      "dist": "2.58"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Phe163",
+      "dist": "2.76"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn164",
+      "dist": "1.94"
+    }
+  ],
+  "C2urea_3NHBA_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Arg162",
+      "dist": "3.70"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.88"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.59"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn143",
+      "dist": "2.84"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg144",
+      "dist": "1.98"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn160",
+      "dist": "1.76"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn160",
+      "dist": "2.98"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Phe163",
+      "dist": "2.51"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn164",
+      "dist": "1.77"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Gly182",
+      "dist": "2.82"
+    }
+  ],
+  "NAc1_mCOOH_3CN": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.88"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.86"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.97"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "3.22"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.43"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "1.75"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg144",
+      "dist": "3.91"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.73"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.08"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.13"
+    }
+  ],
+  "C2urea_3NHBA_6CF3Py3": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.50"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn119",
+      "dist": "3.96"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn119",
+      "dist": "2.91"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "1.97"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.46"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "2.07"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "2.63"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "1.98"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Asp148",
+      "dist": "5.01"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Lys233",
+      "dist": "5.01"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.91"
+    }
+  ],
+  "NAc1_pCOOH_3CF3": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.83"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.08"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "1.88"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "2.65"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg162",
+      "dist": "4.81"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.92"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.32"
+    }
+  ],
+  "NAc2_pCOOH_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu165",
+      "dist": "3.92"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.70"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "His158",
+      "dist": "3.84"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg162",
+      "dist": "4.99"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.69"
+    }
+  ],
+  "NBn_mCOOH_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.90"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "3.17"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.50"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Gly238",
+      "dist": "3.24"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg144",
+      "dist": "4.26"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.69"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.14"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.16"
+    }
+  ],
+  "NAc2_pCOOH_3Cl4F": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Arg144",
+      "dist": "3.81"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.91"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.85"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.30"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "1.90"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp239",
+      "dist": "2.63"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.65"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.13"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg144",
+      "dist": "3.98"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.30"
+    }
+  ],
+  "NAc1_mCOOH_35diCl": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu165",
+      "dist": "3.84"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.83"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.79"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn160",
+      "dist": "2.79"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Glu165",
+      "dist": "2.07"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Glu165",
+      "dist": "2.28"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "His158",
+      "dist": "4.03"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg162",
+      "dist": "5.01"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.75"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.21"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.18"
+    },
+    {
+      "type": "Halogen Bonds",
+      "res": "Asn143",
+      "dist": "3.66"
+    }
+  ],
+  "NAc1_pCOOH_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Ala146",
+      "dist": "3.66"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.93"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.93"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "3.21"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Gln150",
+      "dist": "2.36"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.63"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.41"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "3.23"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.69"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.17"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.22"
+    }
+  ],
+  "NAc0_mCOOH_3CF3": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.82"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.93"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.21"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "1.63"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "His158",
+      "dist": "5.10"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg162",
+      "dist": "4.68"
+    }
+  ],
+  "NAc1_mCOOH_34diCl": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.89"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.89"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.26"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "1.93"
+    },
+    {
+      "type": "Salt Bridges",
+      "res": "Arg144",
+      "dist": "4.56"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.68"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.19"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.29"
+    }
+  ],
+  "NAc1_pCOOH_3Cl4F": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.49"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Ala146",
+      "dist": "3.99"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.89"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.99"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Tyr118",
+      "dist": "3.03"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn160",
+      "dist": "2.62"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn160",
+      "dist": "2.64"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ile236",
+      "dist": "2.49"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ile236",
+      "dist": "2.45"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "2.22"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.84"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.28"
+    }
+  ],
+  "C2amd_4FmCOOH_3CF3": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Pro117",
+      "dist": "3.77"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn119",
+      "dist": "3.78"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Ala146",
+      "dist": "3.87"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn174",
+      "dist": "3.92"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "2.36"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp148",
+      "dist": "1.78"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "2.36"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Glu184",
+      "dist": "2.61"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.78"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.26"
+    }
+  ],
+  "NBn_mCOOH_3Cl4F": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Arg162",
+      "dist": "3.82"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.87"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn174",
+      "dist": "2.30"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.65"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.17"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.22"
+    }
+  ],
+  "S5A_B07_3SO2Me": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Ala146",
+      "dist": "3.74"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn143",
+      "dist": "2.53"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg144",
+      "dist": "1.75"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "3.29"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Ser237",
+      "dist": "2.82"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp239",
+      "dist": "3.27"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asp239",
+      "dist": "2.60"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "3.68"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.11"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.16"
+    }
+  ],
+  "GB1107": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.85"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "2.11"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Glu184",
+      "dist": "2.75"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg186",
+      "dist": "2.22"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.08"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "5.26"
+    }
+  ],
+  "c310_15": [
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg144",
+      "dist": "2.24"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "3.30"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "2.40"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "2.32"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Trp181",
+      "dist": "2.14"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg144",
+      "dist": "3.80"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "3.91"
+    },
+    {
+      "type": "Halogen Bonds",
+      "res": "Asn143",
+      "dist": "3.77"
+    },
+    {
+      "type": "Halogen Bonds",
+      "res": "Asn160",
+      "dist": "2.99"
+    },
+    {
+      "type": "Halogen Bonds",
+      "res": "Asn160",
+      "dist": "3.30"
+    }
+  ],
+  "GB1211": [
+    {
+      "type": "Hydrogen Bonds",
+      "res": "His158",
+      "dist": "2.41"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn160",
+      "dist": "3.39"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "2.17"
+    },
+    {
+      "type": "pi-Stacking",
+      "res": "Trp181",
+      "dist": "4.08"
+    }
+  ],
+  "TD-139": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Asn143",
+      "dist": "3.90"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Arg162",
+      "dist": "3.80"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Arg183",
+      "dist": "3.67"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.81"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "2.16"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg162",
+      "dist": "2.91"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Glu165",
+      "dist": "1.72"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Glu184",
+      "dist": "2.08"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Arg186",
+      "dist": "3.12"
+    },
+    {
+      "type": "pi-Cation Interactions",
+      "res": "Arg162",
+      "dist": "3.60"
+    }
+  ],
+  "S5A_C03_NO2_CN": [
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Arg144",
+      "dist": "3.95"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Arg162",
+      "dist": "3.91"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Arg162",
+      "dist": "3.93"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.95"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Trp181",
+      "dist": "3.50"
+    },
+    {
+      "type": "Hydrophobic Interactions",
+      "res": "Glu184",
+      "dist": "3.68"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn143",
+      "dist": "3.40"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Phe163",
+      "dist": "2.47"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Asn164",
+      "dist": "1.72"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Glu184",
+      "dist": "1.93"
+    },
+    {
+      "type": "Hydrogen Bonds",
+      "res": "Glu184",
+      "dist": "2.02"
+    }
+  ]
+}

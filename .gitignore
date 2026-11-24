@@ -1,6 +1,7 @@
 stage5_aniline_sar/docking/
 stage5_aniline_sar/*.pdbqt
 stage5_aniline_sar/*_clean.pdb
+stage5b_optimization/top_poses/
 gal3_stage5_report.html
 gal3_explorer/
 stage5_reinvent4/tb_logs/
